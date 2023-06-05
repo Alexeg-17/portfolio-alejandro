@@ -1,0 +1,83 @@
+<section class="qualification section">
+    <h2 class="section__title">Experience</h2>
+    <span class="section__subtitle">Personal Experience</span>
+    <div class="qualification__container containerPersonal">
+        <div class="qualification__tabs">
+            <div (click)="cambioOpenLIst('educacion')" class="qualification__button button--flex "
+                [ngClass]="{'qualification__active': openList === 'educacion'}">
+                <i class="fas fa-graduation-cap qualification__icon"></i>
+                Education
+            </div>
+
+            <div (click)="cambioOpenLIst('trabajo')" class="qualification__button button--flex"
+                [ngClass]="{'qualification__active': openList === 'trabajo'}">
+                <i class="fas fa-briefcase qualification__icon"></i>
+                Work Experience
+            </div>
+        </div>
+
+        <div class="qualification__sections">
+            <!-- cualificacion contenido 1 -->
+            <div class="qualification__content" [ngClass]="{'qualification__active': openList === 'educacion'}"
+                data-content>
+
+                <!-- contenido 1 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Mechatronics Engineer</h3>
+                        <span class="qualification__subtitle">Centro de Enseñanza Tecnica Industrial - CETI</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2017-2021</div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+             
+               
+            </div>
+
+
+            <!-- cualificacion contenido 1 -->
+            <div class="qualification__content" [ngClass]="{'qualification__active': openList === 'trabajo'}"
+                data-content>
+
+             
+
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">Frontend Developer</h3>
+                        <span class="qualification__subtitle">IBM</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2022-2023</div>
+                    </div>
+
+
+                </div>
+
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">Technical Support Specialist</h3>
+                        <span class="qualification__subtitle">IBM</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2021-2022</div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>

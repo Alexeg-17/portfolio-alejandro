@@ -1,0 +1,17 @@
+<section class="services section">
+    <h2 class="section__title">Services</h2>
+    <span class="section__subtitle">My services</span>
+    <div class="services__container containerPersonal grid">
+        <!-- servicio 1 -->
+        <div class="services__content" *ngFor="let service  of dataServices">
+            <div>
+                <i class="{{service.icono}} services__icon"></i>
+                <h3 class="services__title">{{service.titulo1}} <br> {{service.titulo2}}</h3>
+            </div>
+           
+
+
+        </div>
+
+    </div>
+</section>
