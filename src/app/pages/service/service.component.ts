@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ServiceComponent implements OnInit {
   public dataServices = [
     {
-      titulo1: 'Ui/Ux',
-      titulo2: 'Diseñador',
+      titulo1: 'UI/UX',
+      titulo2: 'Designer',
       icono: 'fas fa-th-large',
       modalInfo: [
         {
@@ -27,8 +27,8 @@ export class ServiceComponent implements OnInit {
       ],
     },
     {
-      titulo1: 'Desarrollador',
-      titulo2: 'Frontend',
+      titulo1: 'FrontEnd',
+      titulo2: 'Developer',
       icono: 'fas fa-code',
       modalInfo: [
         {
