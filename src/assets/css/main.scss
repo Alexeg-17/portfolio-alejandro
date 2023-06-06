@@ -799,6 +799,11 @@ img {
   row-gap: 3rem;
 }
 
+.contact__container button{
+  border: none;
+  cursor: pointer;
+}
+
 .contact__container svg{
   margin-left: 10px;
 }
@@ -1000,7 +1005,7 @@ img {
   .project__container,
   .contact__container,
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .qualification__sections {
